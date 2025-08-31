@@ -1,216 +1,46 @@
-<!-- index.html -->
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CyberSmart Services | AI + Cybersecurity Solutions for Enterprise</title>
-    <meta name="description" content="Veteran-owned CyberSmart Services delivers tailored AI and cybersecurity solutions with enterprise-grade precision. Texas-based, serving regulated industries.">
-    <meta name="keywords" content="AI automation, cybersecurity, FinTech, enterprise security, veteran-owned, Texas, prompt engineering, risk assessment">
-    
-    <!-- OpenGraph -->
-    <meta property="og:title" content="CyberSmart Services | AI + Cybersecurity Solutions">
-    <meta property="og:description" content="Enterprise-grade AI and cybersecurity solutions from veteran-owned CyberSmart Services. Tailored for regulated industries.">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://cybersmartservice.com">
-    <meta property="og:image" content="https://cybersmartservice.com/og-image.jpg">
-    
-    <!-- Twitter Card -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="CyberSmart Services | AI + Cybersecurity Solutions">
-    <meta name="twitter:description" content="Enterprise-grade AI and cybersecurity solutions from veteran-owned CyberSmart Services.">
-    
-    <!-- CSP - TODO: Add beehiiv domain to script-src when embedding newsletter -->
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self';">
-    
-    <!-- Critical CSS inlined -->
-    <style>
-        /* Critical above-the-fold styles */
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #0a0a0a; color: #e4e4e7; line-height: 1.6; }
-        .skip-link { position: absolute; top: -40px; left: 6px; background: #3b82f6; color: white; padding: 8px; text-decoration: none; border-radius: 4px; z-index: 100; }
-        .skip-link:focus { top: 6px; }
-        header { background: rgba(10, 10, 10, 0.95); backdrop-filter: blur(10px); position: fixed; top: 0; width: 100%; z-index: 50; border-bottom: 1px solid #27272a; }
-        .nav-container { max-width: 1200px; margin: 0 auto; padding: 0 1rem; display: flex; justify-content: space-between; align-items: center; height: 4rem; }
-        .logo { font-size: 1.5rem; font-weight: 700; color: #3b82f6; }
-        .cta-primary { background: linear-gradient(135deg, #3b82f6, #1d4ed8); color: white; padding: 0.75rem 1.5rem; border-radius: 8px; text-decoration: none; font-weight: 600; transition: all 0.2s; }
-        .hero { padding: 8rem 1rem 4rem; text-align: center; max-width: 1200px; margin: 0 auto; }
-        .hero h1 { font-size: clamp(2.5rem, 5vw, 4rem); font-weight: 800; margin-bottom: 1.5rem; background: linear-gradient(135deg, #3b82f6, #06b6d4); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
-    </style>
-    
-    <link rel="stylesheet" href="styles.css">
-    <link rel="canonical" href="https://cybersmartservice.com">
-</head>
-<body>
-    <a href="#main" class="skip-link">Skip to main content</a>
-    
-    <header>
-        <nav class="nav-container" role="navigation" aria-label="Main navigation">
-            <div class="logo-container">
-                <img src="logo.png" alt="CyberSmart Services Logo" class="logo-img">
-                <div class="logo">CyberSmart Services</div>
-            </div>
-            <a href="#newsletter" class="cta-primary" aria-label="Join our newsletter">Join the Briefing</a>
-        </nav>
-    </header>
+    <title>Example Domain</title>
 
-    <main id="main">
-        <section class="hero" aria-labelledby="hero-title">
-            <h1 id="hero-title">AI + Cybersecurity, Built with Enterprise Discipline</h1>
-            <p class="hero-subtitle">We align cutting-edge AI automation and cybersecurity solutions with your business goals, delivering enterprise-grade precision for regulated industries.</p>
-            <a href="#newsletter" class="cta-hero">Get Strategic Insights</a>
-        </section>
-
-        <section class="services" id="services" aria-labelledby="services-title">
-            <div class="container">
-                <h2 id="services-title">Our Services</h2>
-                <div class="services-grid">
-                    <div class="service-card">
-                        <div class="service-icon" aria-hidden="true">🤖</div>
-                        <h3>AI Agents & Automation</h3>
-                        <p>Custom AI workflows that reduce manual overhead while maintaining compliance standards for regulated environments.</p>
-                    </div>
-                    <div class="service-card">
-                        <div class="service-icon" aria-hidden="true">⚡</div>
-                        <h3>Prompt Engineering</h3>
-                        <p>Precision-crafted prompts that deliver consistent, reliable outputs aligned with your operational requirements.</p>
-                    </div>
-                    <div class="service-card">
-                        <div class="service-icon" aria-hidden="true">🏦</div>
-                        <h3>FinTech Pilots</h3>
-                        <p>Compliant AI implementations for financial services, designed with regulatory frameworks and risk management in mind.</p>
-                    </div>
-                    <div class="service-card">
-                        <div class="service-icon" aria-hidden="true">🛡️</div>
-                        <h3>Security Risk Assessments</h3>
-                        <p>Comprehensive security evaluations and awareness training to fortify your organization's defense posture.</p>
-                    </div>
-                    <div class="service-card">
-                        <div class="service-icon" aria-hidden="true">📋</div>
-                        <h3>Technical Documentation</h3>
-                        <p>Clear, actionable runbooks and documentation that bridge the gap between technical complexity and operational clarity.</p>
-                    </div>
-                    <div class="service-card">
-                        <div class="service-icon" aria-hidden="true">🎯</div>
-                        <h3>Tech Resume Development</h3>
-                        <p>Strategic resume optimization for technical roles, leveraging deep industry knowledge and hiring insights.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="why-us" aria-labelledby="why-us-title">
-            <div class="container">
-                <h2 id="why-us-title">Why CyberSmart Services</h2>
-                <div class="why-us-content">
-                    <div class="why-us-text">
-                        <h3>Veteran-Owned Excellence</h3>
-                        <p>With over 12 years of experience spanning military operations, healthcare systems, and corporate IT environments, we bring a disciplined approach to technology implementation.</p>
-                        
-                        <h3>Compliance-First Mindset</h3>
-                        <p>Our solutions are built with regulatory frameworks in mind, including SR 11-7 and Model Risk Management (MRM) standards, ensuring your innovations meet the highest compliance requirements.</p>
-                        
-                        <h3>Enterprise-Grade Precision</h3>
-                        <p>We understand that in regulated industries, there's no room for error. Every solution is thoroughly tested, documented, and designed for scalable, secure implementation.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="newsletter" id="newsletter" aria-labelledby="newsletter-title">
-            <div class="container">
-                <h2 id="newsletter-title">Join the Briefing</h2>
-                <p class="newsletter-subtitle">Get strategic insights on AI, cybersecurity, and compliance delivered directly to your inbox.</p>
-                
-                <!-- TODO: Paste your Beehiiv embed code here -->
-                <div id="beehiiv-embed"></div>
-                
-                <!-- Fallback form for no-JS users -->
-                <noscript>
-                    <form class="newsletter-form" action="#" method="post">
-                        <div class="form-group">
-                            <label for="email" class="sr-only">Email address</label>
-                            <input type="email" id="email" name="email" placeholder="Enter your email" required aria-describedby="email-help">
-                            <button type="submit" class="btn-submit">Subscribe</button>
-                        </div>
-                        <p id="email-help" class="form-help">We respect your privacy. Unsubscribe at any time.</p>
-                    </form>
-                </noscript>
-            </div>
-        </section>
-
-        <section class="faq" id="faq" aria-labelledby="faq-title">
-            <div class="container">
-                <h2 id="faq-title">Frequently Asked Questions</h2>
-                <div class="faq-list">
-                    <div class="faq-item">
-                        <h3>How does your pricing work?</h3>
-                        <p>We use a project-based pricing model tailored to your specific requirements. Each engagement begins with a discovery phase to understand your needs and provide a transparent, fixed-price proposal.</p>
-                    </div>
-                    <div class="faq-item">
-                        <h3>What's the typical timeline for FinTech pilots?</h3>
-                        <p>Most FinTech pilot implementations range from 4-8 weeks, depending on complexity and regulatory requirements. We prioritize thorough testing and documentation to ensure compliance standards are met.</p>
-                    </div>
-                    <div class="faq-item">
-                        <h3>Can AI solutions work in heavily regulated industries?</h3>
-                        <p>Absolutely. We specialize in designing AI implementations that meet stringent regulatory requirements, including financial services regulations, healthcare compliance, and government security standards.</p>
-                    </div>
-                    <div class="faq-item">
-                        <h3>How do you handle data security and privacy?</h3>
-                        <p>Security is built into every solution from the ground up. We follow zero-trust principles, implement end-to-end encryption, and ensure all data handling meets or exceeds industry-specific compliance requirements.</p>
-                    </div>
-                    <div class="faq-item">
-                        <h3>Do you provide ongoing support after implementation?</h3>
-                        <p>Yes, we offer comprehensive support packages including monitoring, maintenance, updates, and strategic guidance to ensure your solutions continue delivering value over time.</p>
-                    </div>
-                    <div class="faq-item">
-                        <h3>What makes your approach different?</h3>
-                        <p>Our veteran-led team combines technical expertise with operational discipline, ensuring solutions aren't just innovative—they're reliable, compliant, and aligned with your business objectives.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <footer role="contentinfo">
-        <div class="container">
-            <div class="footer-content">
-                <p>Veteran-owned • Texas-based</p>
-                <p><a href="mailto:hello@cybersmartservices.com">hello@cybersmartservices.com</a></p>
-                <p>&copy; <span id="current-year">2025</span> CyberSmart Services. All rights reserved.</p>
-            </div>
-        </div>
-    </footer>
-
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Organization",
-        "name": "CyberSmart Services",
-        "description": "Veteran-owned AI and cybersecurity solutions for enterprise and regulated industries",
-        "url": "https://cybersmartservice.com",
-        "logo": "https://cybersmartservice.com/logo.png",
-        "foundingLocation": {
-            "@type": "Place",
-            "name": "Texas, United States"
-        },
-        "email": "hello@cybersmartservices.com",
-        "serviceArea": {
-            "@type": "Place",
-            "name": "United States"
-        },
-        "services": [
-            "AI Automation Solutions",
-            "Cybersecurity Consulting",
-            "FinTech Compliance",
-            "Technical Documentation"
-        ]
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style type="text/css">
+    body {
+        background-color: #f0f0f2;
+        margin: 0;
+        padding: 0;
+        font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        
     }
-    </script>
+    div {
+        width: 600px;
+        margin: 5em auto;
+        padding: 2em;
+        background-color: #fdfdff;
+        border-radius: 0.5em;
+        box-shadow: 2px 3px 7px 2px rgba(0,0,0,0.02);
+    }
+    a:link, a:visited {
+        color: #38488f;
+        text-decoration: none;
+    }
+    @media (max-width: 700px) {
+        div {
+            margin: 0 auto;
+            width: auto;
+        }
+    }
+    </style>    
+</head>
 
-    <!-- TODO: Add Cloudflare Web Analytics snippet here -->
-    <!-- <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "YOUR_TOKEN_HERE"}'></script> -->
-    
-    <script src="main.js"></script>
+<body>
+<div>
+    <h1>Example Domain</h1>
+    <p>This domain is for use in illustrative examples in documents. You may use this
+    domain in literature without prior coordination or asking for permission.</p>
+    <p><a href="https://www.iana.org/domains/example">More information...</a></p>
+</div>
 </body>
 </html>
